@@ -46,6 +46,12 @@ body {
   font-style: italic;
 }
 
+.options-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .button-container {
   margin-top: 15px;
   display: flex;
@@ -62,6 +68,7 @@ button {
   background: #;
   outline: none;
   padding: 0.5rem 1.8rem;
+  color: #1a0d67;
   box-shadow: 0 0.3rem rgba(121, 121, 200, 0.65);
 }
 
@@ -81,6 +88,13 @@ button:active {
 
 .fa-twitter {
   font-size: 1.5rem;
+}
+
+.points {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .loader {
